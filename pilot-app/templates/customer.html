@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Danh sách gấu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1> Find your bae </h1>
+    {% for customer in customer_list %}
+    {% if customer.gender == 1 %}
+<img src=../static/nam.jpg alt="">
+    {% endif %}
+    {% if customer.gender == 0 %}
+    <img src=../static/nu.jpg alt="">
+    {% endif %}
+<p>name: {{customer.name}}</p>
+<p> gender: 
+    {% if customer.gender == 1 %}
+    male
+    {% elif customer.gender == 0 %}
+    female
+    {% endif %}
+ </p>
+<p>email: {{customer.email}} </p>
+<p>phone: {{customer.phone}}</p>
+<p>job: {{customer.job}}</p>
+<p>company:{{customer.company}}</p>
+<p>address: {{customer.address}} </p>
+<p>contacted:
+    {%if customer.contacted == True %}
+    đã có gấu
+    {%elif customer.contacted == False %}
+    chưa có gấu
+    {% endif %}
+</p>
+<hr>
+    {% endfor %}
+
+</body>
+</html>

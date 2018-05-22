@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Update form</h1>
+    <form method="post">
+        <label>name</label>
+        <input type="text" name="name" value="{{item.name}}">
+        <br>
+    
+        <label>năm sinh</label>
+        <input type="text" name="yob" value="{{item.yob}}">
+        <br>
+    
+        <label>số điện thoại</label>
+        <input type="text" name="phone" value="{{item.phone}}">
+        <br>
+    
+        <input type="radio" name="gender" value='male' checked>Male
+        <br>
+        <input type="radio" name="gender" value='female'>Female
+        <br>
+    
+        <input type="submit" name="" value="update">
+</form>
+</body>
+</html>
