@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Video nhảm nhí của Phúc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1> Video linh tinh của Phúc :D </h1>
+    <a href="{{ url_for('login')}}">dang nhap</a>
+    {% for video in videos %}
+    <div> 
+        <img src="{{ video.thumbnail }}" alt="" width="200px" height="120px" >
+    <b> {{ video.title }}</b>
+    <br>
+    <span> {{video.views}} Views </span>
+    <br>
+    <a href="{{ url_for('detail', youtube_id= video.youtube_id) }}"> Xem </a>
+    <hr>
+    </div>
+    
+    {% endfor %}
+</body>
+</html>

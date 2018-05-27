@@ -1,0 +1,34 @@
+h1 {
+    text-transform: uppercase;
+    }
+#nho {
+    color: red;
+    font-family: 'Dancing Script', cursive;    
+    font-size: 25px
+}
+#to {
+    color: black;
+    font-size: 50px;
+    font-family: 'Francois One', sans-serif;
+
+}
+/* b {
+    color: black;
+    font-size: 20px
+
+} */
+
+#background-ele {
+    height:500px ;
+    width: 100%;
+    background-color: aqua;
+    background-image: url('https://dantricdn.com/thumb_w/640/2017/hotgirl-reuters-kieu-trinh6-1496928968014.jpg');
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+    width: 100%;
+    height:1000px ;
+}

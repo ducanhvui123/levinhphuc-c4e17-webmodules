@@ -1,0 +1,40 @@
+.text-green {
+    color: green;
+
+
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.d-inline-block {
+    display: inline-block;
+
+}
+
+#box-model {
+
+    border: 1px solid #afa63d;
+    margin: 50px  40px;
+    padding: 10px 5px  15px 20px;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+
+

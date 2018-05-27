@@ -1,0 +1,41 @@
+.bg-blue {
+    background-color: blue;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.bg-red {
+    background-color:  red;
+
+}
+
+.h-150px {
+
+    height: 150px;
+}
+
+.h-100px {
+
+    height: 100px;
+}
+
+.w-24 {
+
+    width: 24%;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.bg-green {
+    background-color: green
+
+}
+
+#box-model {
+    padding: 0px 0px 0px 10px;
+
+}

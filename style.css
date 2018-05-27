@@ -1,0 +1,20 @@
+    /* selector {
+            property: value;
+
+        } */
+    /* tag name selector  */
+    h1 { color: red }
+    h2 { color: palegreen }
+
+    /* id selector */
+    #heading-2 {
+        color: aqua;
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+
+    }
+    /* class selector */
+    .text-right {
+        text-align: right;
+
+    }
